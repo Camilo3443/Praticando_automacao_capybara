@@ -16,7 +16,8 @@ Executando o Projeto 🎯
 Faça um clone do projeto:
 
 
-git clone https://github.com/Camilo3443/Capybara-Cucumber-selenium-ruby--Praticando
+git clone https://github.com/Camilo3443/Praticando_automacao_capybara
+
 
 =========================================
 

@@ -1,25 +1,44 @@
-# practice-automation-capybara
+#automation-capybara
 
-Baixando o projeto
-----------------------------------------------------------------------------------------
-git clone https://github.com/Thialison/practice-automation-capybara.git
+========================================= 
 
 
-
-Instalando dependências
-----------------------------------------------------------------------------------------
-bundle install
+Instalando Gerenciador de gems do Ruby:
 
 
 
-Configurando Browser
-----------------------------------------------------------------------------------------
-Baixar chromedriver.exe e colocar no diretório C:\Ruby23-x64\bin
+gem install bundler
+
+=========================================
+
+Executando o Projeto 🎯
+
+Faça um clone do projeto:
+
+
+git clone https://github.com/Camilo3443/Capybara-Cucumber-selenium-ruby--Praticando
+
+=========================================
+
+1. Acesse a pasta pelo terminal e execute o comando:
 
 
 
-Executando projeto
-----------------------------------------------------------------------------------------
+bundle
+
+
+=========================================
+
+
+
+2. Executando todos os cenários da feature "Cadastros_usuarios_steps":
+
+
 cucumber
 
+========================================= 
 
+
+3. Executando features com report:
+
+cucumber -p report

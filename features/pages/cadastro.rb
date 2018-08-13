@@ -18,8 +18,8 @@ class Cadastro < SitePrism::Page
     element :input_confirm_pass, "#confirm_password_password_2"
 
     def preencher_cadastro
-        input_first_name.set "Thialison"
-        input_last_name.set "Souza"
+        input_first_name.set "Luis Eduardo"
+        input_last_name.set "Camilo"
         radio_single_status.click
         radio_reading_hobby.click
         select_country.select "Brazil"
@@ -35,8 +35,8 @@ class Cadastro < SitePrism::Page
     end
 
     def preencher_cadastro_existente
-        input_first_name.set "Thialison"
-        input_last_name.set "Souza"
+        input_first_name.set "Luis Eduardo"
+        input_last_name.set "Camilo"
         radio_single_status.click
         radio_reading_hobby.click
         select_country.select "Brazil"
